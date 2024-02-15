@@ -56,17 +56,17 @@ let arr = [
 
   })
 
-console.log(mapping);
+//console.log(mapping);
 
 
 //checking document
-console.dir(document)
+//console.dir(document)
 
-console.log(typeof(document))
+//console.log(typeof(document))
 
 
 //check title
-console.log(document.title);
+//console.log(document.title);
 
 // check URL
 //console.log(document.URL)
