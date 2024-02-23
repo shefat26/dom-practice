@@ -130,9 +130,11 @@ document.title = "Play with DOM"
 // LESSION #3 - Traversing Dom Elements
 
 
-// Selecting Document Element
+// Selecting Document Element by id 
 
-console.log(document.getElementById("hero"))
+let doc = document.getElementById("hero")
+
+console.log(doc)
 
 
 
@@ -151,6 +153,16 @@ rocketElement.innerText = "Acme Rockets Fly"
 console.log(rocketElement.innerHTML) 
 
 
+
+// if we want to change the element style
+
+ rocketElement.style.color= "red" ;
+
+ // change element font size
+ rocketElement.style.fontSize= "30px" ;
+
+
+console.dir(document)
 
 
 
