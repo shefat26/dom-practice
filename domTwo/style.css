@@ -1,0 +1,318 @@
+
+*{
+
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image: url(first-photo.avif);
+}
+
+.top{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navone{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    /* line-height: 5px; */
+
+    
+}
+
+.navone button{
+
+    padding: 10px 30px;
+    margin: 15px;
+    background-color: red;
+    color: white;
+    
+}
+
+.navcolor{
+
+    color: orangered;
+}
+
+
+.navtwo{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+
+}
+
+.navtwo img{
+
+    width: 400px ;
+    height:400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.mymission{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.year{
+
+    color: orangered;
+}
+
+
+.second{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.mission{
+
+    
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(115, 197, 233);
+    border-radius: 1rem;
+}
+
+.mission h5{
+
+    font-size: 25px;
+}
+
+.mission img{
+
+    /* padding: 20px; */
+    height: 250px;
+    /* width: 250px; */
+    /* border-radius: 25px; */
+
+}
+
+.vission{
+
+    
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color:rgb(253, 220, 226);
+    border-radius: 1rem;
+
+}
+
+
+.vission img{
+
+    height: 250px;
+}
+.vission h5{
+
+    font-size: 25px;
+}
+
+
+
+.goal{
+
+    
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: lightyellow;
+    border-radius: 1rem;
+}
+
+.goal img{
+
+    height: 250px;
+    /* border-radius: ; */
+}
+.goal h5{
+
+    font-size: 25px;
+}
+
+
+.third{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagecode{
+
+    width: 550px;
+}
+
+.dev{
+
+    
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+
+}
+
+.dev h3{
+
+    font-size: 25px;
+}
+
+
+.dev p{
+
+    padding: 30px;
+}
+.dev button{
+
+    background-color: orangered;
+    margin: 10px;
+    padding: 10px 30px;
+
+
+}
+
+
+.fourth{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.know{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    /* display: flex; */
+    /* align-items: center; */
+   
+
+}
+
+.know p{
+
+    padding: 30px;
+}
+
+.know button{
+
+    background-color: orangered;
+    margin: 10px 20px;
+    padding:10px 30px;
+
+
+}
+
+.projectimg{
+
+    width: 550px;
+
+}
+
+
+.fifth{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cop{
+
+    color: rgb(252, 165, 3);
+    font-size: 30px;
+}
+
+
+.footer{
+
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer .image{
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.mobileapp{
+
+    width: 450px;
+}
+
+.bottomtwo{
+
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px 30px;
+
+}
+
+
+.app{
+
+    color: orange;
+}
+
+.bottomtwo p{
+
+    padding: 20px;
+}
+
+.bottomtwo button{
+
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: orangered;
+
+}
+
