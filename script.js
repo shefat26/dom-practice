@@ -233,30 +233,30 @@ console.log(pTag);
 
 
 
-let newPtag = document.querySelector('#build');
+// let newPtag = document.querySelector('#build');
 
-console.log(newPtag);
+// console.log(newPtag);
 
 
 // selecting tag elemnt child
 
-let lastItem = document.querySelector('.item:last-child');
+// let lastItem = document.querySelector('.item:last-child');
 
-lastItem.style.color = 'red';
+// lastItem.style.color = 'red';
 
 
 // when we want to select nth child, we can use nth-child
 
-let lastItem2 = document.querySelector('.item:nth-child(1)');
+// let lastItem2 = document.querySelector('.item:nth-child(1)');
 
-lastItem2.style.color = 'yellow';
-
-
-
-let lastItem3 = document.querySelectorAll('.item:last-child');
+// lastItem2.style.color = 'yellow';
 
 
-lastItem3.style.color = 'yellow';
+
+// let lastItem3 = document.querySelectorAll('.item:last-child');
+
+
+// lastItem3.style.color = 'yellow';
 
 
 
@@ -267,10 +267,29 @@ lastItem3.style.color = 'yellow';
 
 
 
+// lession-4
 
 
 
+// selecting children from the div element
+
+
+let parent = document.querySelector('#uif')
+
+let child = parent.children;
+
+console.log(child);
+
+console.log(child[1]);
 
 
 
+//
 
+let grandParent = document.querySelector('.fourth')
+
+let parent1 = grandParent.children;
+
+let child1 = parent1[1].children;
+
+console.log(child1);
