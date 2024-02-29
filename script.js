@@ -162,7 +162,73 @@ console.log(rocketElement.innerHTML)
  rocketElement.style.fontSize= "30px" ;
 
 
-console.dir(document)
+//console.dir(document)
+
+
+
+// to get the class element by  class name and index num
+
+console.log(document.getElementsByClassName('item'))
+
+//console.log(document.getElementsByClassName('item')[2])
+
+
+// using for loop to change the class= "item" element
+
+
+let items = document.getElementsByClassName('item');
+
+for( let i=0; i<items.length; i++){
+
+  items[i].style.color = 'blue';
+
+}
+
+
+// using for loop to change the id= "second" element
+
+
+// let sectionID = document.getElementsById('hero')
+
+// let ite = sectionID.getElementsByClassName('item');
+
+// for(let i = 0; i<ite.length; i++){
+
+//   // ite[i].style.color= 'green' ;
+
+// }
+
+
+
+// selecting tag element
+
+
+let anItem = document.getElementsByTagName('p')
+
+console.log(anItem);
+
+
+let aTag = document.getElementsByTagName('a')
+
+console.log(aTag);
+
+
+
+// Query selector
+
+let pTag = document.querySelector('.think');
+
+console.log(pTag);
+
+
+
+let newPtag = document.querySelector('#build');
+
+console.log(newPtag);
+
+
+
+
 
 
 
