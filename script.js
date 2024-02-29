@@ -166,6 +166,11 @@ console.log(rocketElement.innerHTML)
 
 
 
+
+/////////////////////////////////////
+//////////////////////////////////////
+//////////////////////////////////////
+
 // to get the class element by  class name and index num
 
 console.log(document.getElementsByClassName('item'))
@@ -214,6 +219,12 @@ console.log(aTag);
 
 
 
+
+
+/////////////////////////////////////
+////////////////////////////////////
+////////////////////////////////////
+
 // Query selector
 
 let pTag = document.querySelector('.think');
@@ -226,6 +237,33 @@ let newPtag = document.querySelector('#build');
 
 console.log(newPtag);
 
+
+// selecting tag elemnt child
+
+let lastItem = document.querySelector('.item:last-child');
+
+lastItem.style.color = 'red';
+
+
+// when we want to select nth child, we can use nth-child
+
+let lastItem2 = document.querySelector('.item:nth-child(1)');
+
+lastItem2.style.color = 'yellow';
+
+
+
+let lastItem3 = document.querySelectorAll('.item:last-child');
+
+
+lastItem3.style.color = 'yellow';
+
+
+
+
+/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
 
 
 
