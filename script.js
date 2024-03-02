@@ -293,3 +293,55 @@ let parent1 = grandParent.children;
 let child1 = parent1[1].children;
 
 console.log(child1);
+
+
+
+
+// Selecting children within the grand parent tag directly
+
+
+let grandParent1 = document.querySelector('.fourth');
+
+let children1 = grandParent1.querySelectorAll('.newcla');
+
+console.log(children1);
+
+
+
+
+
+///
+
+// if we want to select from children to parent
+
+
+let children3 = document.querySelector('.newcla');
+
+let parent3 = children3.parentElement;
+
+console.log(parent3);
+
+
+
+
+// if we want to select from children to GrandParent
+
+
+let children4 = document.querySelector('.newcla');
+
+let grandparent = children4.closest('.fourth');
+
+console.log(grandparent);
+
+
+
+// selecting siblings
+
+let childrenOne = document.querySelector('.newcla');
+
+let childrenTwo = childrenOne.nextElementSibling;
+
+console.log(childrenTwo);
+
+
+
