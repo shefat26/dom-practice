@@ -167,7 +167,6 @@ console.log(rocketElement.innerHTML)
 
 
 
-/////////////////////////////////////
 //////////////////////////////////////
 //////////////////////////////////////
 
@@ -221,7 +220,6 @@ console.log(aTag);
 
 
 
-/////////////////////////////////////
 ////////////////////////////////////
 ////////////////////////////////////
 
@@ -268,6 +266,8 @@ console.log(pTag);
 
 
 // lession-4
+
+// Traversing dOM
 
 
 
@@ -335,13 +335,102 @@ console.log(grandparent);
 
 
 
-// selecting siblings
+// selecting children or siblings
 
 let childrenOne = document.querySelector('.newcla');
 
 let childrenTwo = childrenOne.nextElementSibling;
 
+//console.log(childrenTwo);
+
+childrenTwo.style.color = 'blue';
+
 console.log(childrenTwo);
+
+
+
+// if we want to go to childrenTwo to ChildrenOne
+
+
+// let childrenTwoPrev = document.querySelector('.newcla')
+
+// nextElementSibling;
+
+// let childrenOnePrev = childrenTwoPrev.previousElementSibling;
+
+// childrenOnePrev.style.color = 'blue';
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+
+
+// LESSON - 5
+
+// Dom Manipulating
+
+
+
+
+// Creating div element index file from dom 
+
+
+
+//STEP-1
+let divElement = document.createElement('div');
+
+//console.log(divElement);
+
+// Adding Class Name
+divElement.className = 'prevCla'
+
+// addaing id in div 
+divElement.setAttribute('id', 'prev');
+
+divElement.setAttribute('id', 'prev Div');
+
+
+
+// STEP-2
+
+// place we want to put  the above div elemnt
+
+let container = document.querySelector('.know');
+
+
+
+//STEP-3
+// Before which html tag we want to plug the new div element, 
+//  here we selected <h3></h3>
+
+let h3Element = container.querySelector('h3');
+
+
+
+// STEP-4
+// Now plug the new div element and enter <h3> tag
+container.insertBefore(divElement, h3Element)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
