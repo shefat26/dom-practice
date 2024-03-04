@@ -423,9 +423,31 @@ container.insertBefore(divElement, h3Element)
 
 
 
+// Creating and adding  div element at the last  
+
+
+//STEP-1
+let divElementLast = document.createElement('div');
+
+//console.log(divElement);
+
+// Adding Class Name
+divElementLast.className = 'LastCla'
+
+// addaing id in div 
+divElementLast.setAttribute('id', 'Last');
+
+divElementLast.setAttribute('id', 'Last Div');
 
 
 
+// STEP-2
+
+// place we want to put  the above div elemnt
+
+let containerLast = document.querySelector('.know');
+
+containerLast.appendChild(divElementLast);
 
 
 
