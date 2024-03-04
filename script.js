@@ -456,3 +456,116 @@ containerLast.appendChild(divElementLast);
 
 
 
+/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+
+
+// LESSON - 6
+
+
+// Listening to DOM Event 
+
+
+// Click event catch
+let headerElement = document.querySelector('#to');
+
+headerElement.addEventListener('click', (event) => {
+
+   // console.log(event);
+
+})
+
+
+
+// double click event 
+
+headerElement.addEventListener('dblclick', (event) => {
+
+    //console.log(event);
+
+})
+
+
+// mouse down event
+
+headerElement.addEventListener('mousedown', (event) => {
+
+  //console.log(event);
+
+})
+
+
+// mouse up event
+
+headerElement.addEventListener('mouseup', (event) => {
+
+  //console.log(event);
+
+})
+
+
+// mouse enter event
+
+headerElement.addEventListener('mouseenter', (event) => {
+
+  //console.log(event);
+
+})
+
+
+// mouse leave event
+
+headerElement.addEventListener('mouseleave', (event) => {
+
+  //console.log(event);
+
+})
+
+
+// mouse over event
+
+headerElement.addEventListener('mouseover', (event) => {
+
+  //console.log(event);
+
+})
+
+
+// mouse oute event
+
+headerElement.addEventListener('mouseoute', (event) => {
+
+  console.log(event);
+
+})
+
+
+
+//
+
+
+let mouseElement = document.querySelector('.mouse');
+
+mouseElement.addEventListener('mouseenter', (event) => {
+
+    //console.log(event);
+
+})
+
+
+mouseElement.addEventListener('mousemove', (event) => {
+
+    console.log(event);
+
+})
+
+
+
+
+
+
+
+
+
