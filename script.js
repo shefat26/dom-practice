@@ -654,4 +654,40 @@ inputElement6.addEventListener('input', (event) =>{
 
 
 
+///////////////////////
+//////////////////////
+
+
+// Form element
+
+
+let formElement = document.querySelector('form');
+
+formElement.addEventListener('submit', (event) => {
+
+  event.preventDefault();
+
+  console.log(event);
+
+  //console.log(event.target);
+
+})
+
+
+
+
+//
+
+let formElement1 = document.querySelector('form');
+
+let inputElement7 = document.querySelector('input[type="text"]');
+
+inputElement.addEventListener('keydown', (event) => {
+
+  console.log(event.target.value);
+
+})
+
+
+
 
