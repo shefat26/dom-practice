@@ -565,6 +565,92 @@ mouseElement.addEventListener('mousemove', (event) => {
 
 
 
+// selecting Input element
+
+
+let inputElement = document.querySelector('input[type="text"]');
+
+
+inputElement.addEventListener('keydown', (event) =>{
+
+  //console.log(event);
+  
+});
+
+
+//
+
+let inputElement1 = document.querySelector('input[type="text"]');
+
+
+inputElement1.addEventListener('keyup', (event) =>{
+
+  //console.log(event);
+
+});
+
+
+//
+
+let inputElement2 = document.querySelector('input[type="text"]');
+
+
+inputElement2.addEventListener('keypress', (event) =>{
+
+  console.log(event);
+
+});
+
+
+
+//
+
+let inputElement3 = document.querySelector('input[type="text"]');
+
+
+inputElement3.addEventListener('focuse', (event) =>{
+
+  console.log(event);
+
+});
+
+
+//
+
+let inputElement4 = document.querySelector('input[type="text"]');
+
+
+inputElement4.addEventListener('cut', (event) =>{
+
+  console.log(event);
+
+});
+
+
+//
+
+let inputElement5 = document.querySelector('input[type="text"]');
+
+
+inputElement5.addEventListener('paste', (event) =>{
+
+  console.log(event);
+
+});
+
+
+
+//
+
+let inputElement6 = document.querySelector('input[type="text"]');
+
+
+inputElement6.addEventListener('input', (event) =>{
+
+  console.log(event);
+
+});
+
 
 
 
